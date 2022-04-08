@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/w"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/unnamed">
+
+
+        <Button
+            android:id="@+id/count"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/ic_brightness_1_black_24dp"
+            tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/zero"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="115dp"
+            android:background="@drawable/ic_fiber_manual_record_black_"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+        <TextView
+            android:id="@+id/view"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="48dp"
+            android:layout_marginRight="40dp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:background="@android:color/white"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>
